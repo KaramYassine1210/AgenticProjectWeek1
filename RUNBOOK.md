@@ -29,7 +29,6 @@ api_key: <VOTRE_CLE_API_GROQ>
 
 | Nœud ID | Rôle | Database ID |
 |---|---|---|
-| `NotionPageCreator` | Crée une page dans la DB des tâches | `3689e73c198580b08152cfe9ba9e9d20` |
 | `NotionPageCreator` | Crée une page dans la DB des erreurs | `3659e73c-1985-8078-a19a-fa7930762727` |
 
 **Champs à renseigner dans chaque nœud :**
@@ -40,7 +39,7 @@ database_id:   <DATABASE_ID_CI_DESSUS>
 
 ---
 
-### MongoDB — Prompt Template (`Prompt Template-rd6zu`)
+### MongoDB — Prompt Template 
 
 La connexion MongoDB est définie directement dans le code Python du template :
 
@@ -55,7 +54,7 @@ uri = "mongodb+srv://user:password@cluster0.khmxz7l.mongodb.net/?appName=Cluster
 
 ---
 
-## 👤 User Stories & Cas de réponse de l'agent
+##  User Stories & Cas de réponse de l'agent
 
 ---
 
