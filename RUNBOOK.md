@@ -73,7 +73,7 @@ uri = "mongodb+srv://user:password@cluster0.khmxz7l.mongodb.net/?appName=Cluster
    ```
 3. `GroqModel` formate les propriétés Notion
 4. `NotionPageCreator` crée une page dans la DB Tâches
-5. Le code Python insère l'entrée dans MongoDB (`AgentMemory.tasks`) et SQLite
+5. Le code Python insère l'entrée dans MongoDB (`AgentMemory.tasks`)
 6. `ChatOutput` retourne la confirmation à l'utilisateur
 
 **Réponse attendue du chat :**
