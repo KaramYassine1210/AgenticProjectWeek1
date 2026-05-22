@@ -27,7 +27,7 @@ Cet agent reçoit un message de l'utilisateur, détermine s'il contient une tâc
 | Type Converter (→ Data) | `TypeConverterComponent` | Convertit le message LLM en Data |
 | Parser | `ParserComponent` | Extrait le champ `{text}` depuis le Data |
 | Prompt Template | `Prompt Template` | Construit le template de code Python avec `{reponse_llm}` |
-| Python Interpreter | `PythonREPLComponent` | Exécute : parsing JSON → insertion SQLite → alerte Slack → print réponse |
+| Python Interpreter | `PythonREPLComponent` | Exécute : parsing JSON → insertion Mongodb → print réponse |
 | Chat Output (tâche) | `ChatOutput` | Retourne le résultat Python à l'utilisateur |
 | Groq (Formateur Notion tâche) | `GroqModel` | Convertit le message en JSON de propriétés Notion |
 | Notion Create Page (tâches) | `NotionPageCreator` | Crée une page dans la DB Notion des tâches |
