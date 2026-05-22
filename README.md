@@ -104,7 +104,6 @@ Cet agent reçoit un message de l'utilisateur, détermine s'il contient une tâc
 | **Smart Router** | Le routage conditionnel basé sur LLM évite une correspondance fragile par mots-clés ; deux routes nommées (`tasks`, `erreur`) + fallback Else couvrent tous les cas |
 | **Notion comme stockage principal** | Tableau de bord de tâches lisible par l'humain ; intégration API Notion native dans Langflow |
 | **MongoDB comme stockage secondaire** | Stockage de documents persistant pour l'analytique et les futures requêtes |
-| **SQLite dans le Python Interpreter** | Mémoire locale légère ; aucune dépendance externe requise à l'exécution |
 | **Parser + Prompt Template** | Découple le parsing de la sortie LLM de l'exécution du code ; rend le pipeline plus maintenable |
 | **DB Notion séparée pour les erreurs** | Garde les données de tâches propres ; erreurs journalisées séparément pour révision |
 
