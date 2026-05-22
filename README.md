@@ -14,7 +14,7 @@ Cet agent reçoit un message de l'utilisateur, détermine s'il contient une tâc
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Résumé des nœuds
 
@@ -63,7 +63,7 @@ Cet agent reçoit un message de l'utilisateur, détermine s'il contient une tâc
 
 ---
 
-## 🧪 Tests Unitaires
+##  Tests Unitaires
 
 ### Test 1 — Entrée valide : tâche
 
@@ -96,7 +96,7 @@ Cet agent reçoit un message de l'utilisateur, détermine s'il contient une tâc
 
 ---
 
-## 🔧 Justification des Choix Techniques
+##  Justification des Choix Techniques
 
 | Choix | Justification |
 |---|---|
@@ -110,7 +110,7 @@ Cet agent reçoit un message de l'utilisateur, détermine s'il contient une tâc
 
 ---
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 Projet_week_1.json       # Définition du flow Langflow (à importer)
